@@ -181,7 +181,7 @@ class MainWindow(QMainWindow):
         box_layout.addWidget(field)
         box_layout.addStretch()
         return box
-
+    #trial
     def load_transaction(self, filter_type='All'):
         self.table.setRowCount(0)
         data = fetch_data(self.conn, self.search_bar.text())
